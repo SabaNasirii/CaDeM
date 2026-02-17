@@ -15,6 +15,7 @@ CaDeM/
 ├── requirements.txt
 │
 ├── train/
+│   ├── train_network.py
 │   └── CaDeM.py
 │
 ├── evaluate/
@@ -31,6 +32,15 @@ CaDeM/
 │   ├── load_Syn_2.py
 │   ├── load_Syn_3.py
 │   └── load_Syn_4.py
+│
+├── models/
+│   ├── combiner.py
+│   ├── classifier.py
+│   ├── causal_heads.py
+│   └── encoder_model.py
+│
+├── process_data/
+│   └── data_processing.py
 │
 └── data/
     └── (dataset files)
